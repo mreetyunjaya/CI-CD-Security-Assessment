@@ -15,6 +15,22 @@ sudo apt-get -y install docker-engine
 # add current user to docker group so there is no need to use sudo when running docker
 sudo usermod -aG docker $(whoami)
 #let docker run when server is restarted
-systemctl enable docker
+sudo systemctl enable docker
 
 ##Jenkin Installation
+
+##Software Composition Analysis
+
+
+##Static Analysis Security Testing
+
+
+##Security in Infrastructure as Code
+#Container Scanning
+
+#Container Compliance
+
+##Dynamic Analysis Security Testing
+
+
+##Vulnerability Management
